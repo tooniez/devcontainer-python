@@ -1,0 +1,27 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+#### Core EditorConfig Options ####
+
+# All files
+[*]
+indent_style = space
+charset = utf-8
+
+# Indentation and spacing
+indent_size = 4
+tab_width = 4
+trim_trailing_whitespace = false
+
+# New line preferences
+end_of_line = crlf
+insert_final_newline = false
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+[*.{json,yaml,yml}]
+indent_size = 2
